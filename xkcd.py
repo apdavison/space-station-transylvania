@@ -18,7 +18,7 @@ with plt.xkcd():
     ax.set_xticks([0, 1])
     ax.set_xlim([-0.5, 1.5])
     ax.set_ylim([0, 110])
-    ax.set_xticklabels(['CONFIRMED BY\nEXPERIMENT', 'REFUTED BY\nEXPERIMENT'])
+    ax.set_xticklabels(['CONFIRMED BY EXPERIMENT', 'REFUTED BY EXPERIMENT'])
     plt.yticks([])
 
     plt.title("CLAIMS OF SUPERNATURAL POWERS")
